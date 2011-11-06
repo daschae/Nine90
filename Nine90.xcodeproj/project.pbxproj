@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1692F64D146712F800DE9E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1692F64C146712F800DE9E7A /* Foundation.framework */; };
+		1692F65F1467135600DE9E7A /* N90SelectControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1692F65D1467135600DE9E7A /* N90SelectControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1692F6601467135600DE9E7A /* N90SelectControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692F65E1467135600DE9E7A /* N90SelectControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1692F649146712F800DE9E7A /* libNine90.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNine90.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1692F64C146712F800DE9E7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1692F650146712F800DE9E7A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		1692F65D1467135600DE9E7A /* N90SelectControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N90SelectControl.h; sourceTree = "<group>"; };
+		1692F65E1467135600DE9E7A /* N90SelectControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N90SelectControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1692F646146712F700DE9E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692F64D146712F800DE9E7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1692F63E146712F700DE9E7A = {
+			isa = PBXGroup;
+			children = (
+				1692F64E146712F800DE9E7A /* Nine90 */,
+				1692F64B146712F800DE9E7A /* Frameworks */,
+				1692F64A146712F800DE9E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1692F64A146712F800DE9E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1692F649146712F800DE9E7A /* libNine90.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1692F64B146712F800DE9E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1692F64C146712F800DE9E7A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1692F64E146712F800DE9E7A /* Nine90 */ = {
+			isa = PBXGroup;
+			children = (
+				1692F65D1467135600DE9E7A /* N90SelectControl.h */,
+				1692F65E1467135600DE9E7A /* N90SelectControl.m */,
+				1692F64F146712F800DE9E7A /* Supporting Files */,
+			);
+			path = Nine90;
+			sourceTree = "<group>";
+		};
+		1692F64F146712F800DE9E7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1692F650146712F800DE9E7A /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1692F647146712F700DE9E7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692F65F1467135600DE9E7A /* N90SelectControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1692F648146712F700DE9E7A /* Nine90 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1692F656146712F800DE9E7A /* Build configuration list for PBXNativeTarget "Nine90" */;
+			buildPhases = (
+				1692F645146712F700DE9E7A /* Sources */,
+				1692F646146712F700DE9E7A /* Frameworks */,
+				1692F647146712F700DE9E7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nine90;
+			productName = Nine90;
+			productReference = 1692F649146712F800DE9E7A /* libNine90.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1692F640146712F700DE9E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "David Schaefgen";
+			};
+			buildConfigurationList = 1692F643146712F700DE9E7A /* Build configuration list for PBXProject "Nine90" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1692F63E146712F700DE9E7A;
+			productRefGroup = 1692F64A146712F800DE9E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1692F648146712F700DE9E7A /* Nine90 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1692F645146712F700DE9E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692F6601467135600DE9E7A /* N90SelectControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1692F654146712F800DE9E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1692F655146712F800DE9E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1692F657146712F800DE9E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Nine90.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nine90/Prefix.pch;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1692F658146712F800DE9E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Nine90.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nine90/Prefix.pch;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1692F643146712F700DE9E7A /* Build configuration list for PBXProject "Nine90" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692F654146712F800DE9E7A /* Debug */,
+				1692F655146712F800DE9E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1692F656146712F800DE9E7A /* Build configuration list for PBXNativeTarget "Nine90" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692F657146712F800DE9E7A /* Debug */,
+				1692F658146712F800DE9E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1692F640146712F700DE9E7A /* Project object */;
+}

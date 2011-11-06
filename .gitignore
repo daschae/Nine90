@@ -1,0 +1,23 @@
+# osx noise
+.DS_Store
+
+# Xcode per-user config noise
+!default.model1v3
+!default.model2v3
+!default.pbxuser
+!default.perspectivev3
+!default.xcworkspace
+*.model1
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xcworkspace
+build/*
+profile
+xcuserdata
+
+# old skool
+.svn
