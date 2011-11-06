@@ -10,15 +10,11 @@ Components
 
 The following components are currently available. I'll add more as time allows.
 
-*   N90SelectControl (iPhone only)
-    > A drop down control implemented via a slide up picker similar to 
-    > MobileSafari's implementation of a select element on iOS. This component
-    > currently only supports portrait orientation.
+*   N90SelectControl (iPhone only) -- A drop down control implemented via a slide up picker similar to MobileSafari's implementation of a select element on iOS. This component currently only supports portrait orientation.
     
 TODO
 ----
 
 *   Enhance N90SelectControl to support landscape orientation.
-*   Enhance N90SelectControl to support the iPad to match MobileSafari's 
-    behavior there as well.
+*   Enhance N90SelectControl to support the iPad to match MobileSafari's behavior there as well.
 *   Develop additional components.
